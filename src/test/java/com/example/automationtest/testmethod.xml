@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Annotations">
+    <test name="Run Class Annotations">
+        <classes>
+            <class name="com.example.automationtest.User.RegisterTest">
+                <methods>
+                    <exclude name="Login"></exclude>
+                    <exclude name="RegisterVN"></exclude>
+                    <exclude name="RegisterEN"></exclude>
+                </methods>
+            </class>
+            <class name="com.example.automationtest.User.Search">
+                <methods>
+                    <exclude name="SearchEnter"></exclude>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
